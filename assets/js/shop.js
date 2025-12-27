@@ -54,7 +54,11 @@ document.addEventListener("DOMContentLoaded", function () {
             updateCartBadge(7);
         }, 3000);
 
-        document.addEventListener("click", function (e) {
+
+        
+
+document.addEventListener("click", function (e) 
+{
 
     // ADD TO CART click
     if (e.target.classList.contains("btn-add-cart"))
@@ -91,4 +95,17 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
-    });
+
+const overlay = document.querySelector('.filter-overlay');
+overlay.addEventListener('click', toggleFilters);
+
+});
+
+
+function toggleFilters() {
+    const sidebar = document.getElementById('filterSidebar');
+    const overlay = document.querySelector('.filter-overlay');
+
+    sidebar.classList.toggle('show');
+    overlay.classList.toggle('show');
+}

@@ -8,7 +8,7 @@ include 'components/header.php';
   <main id="main-content">
  <section class="filter-sections">
       <!-- Filter Overlay for Mobile -->
-    <div class="filter-overlay" onclick="toggleFilters()"></div>
+    <div class="filter-overlay" ></div>
 
     <!-- Main Content -->
     <div class="container shop-container">
@@ -220,7 +220,7 @@ include 'components/header.php';
  </section>
 </main>
 
-<script>
+<!-- <script>
 function toggleFilters() 
 {
     const sidebar = document.getElementById('filterSidebar');
@@ -228,7 +228,7 @@ function toggleFilters()
     sidebar.classList.toggle('show');
     overlay.classList.toggle('show');
 }
-</script>
+</script> -->
 
 <!-- footer -->
 <?php
