@@ -505,6 +505,10 @@
     font-weight: 600;
 }
 
+.category-card a{
+    color: #333;
+}
+
 
 .ingredient-card:hover .ingredient-image {
     transform: scale(1.15);
