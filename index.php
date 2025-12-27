@@ -21,9 +21,16 @@ include 'components/header.php';
                         </div>
                     </div> -->
 
-                    <div class="swiper-slide hero-slide" style="background-image:url('assets/images/spices-slider-1.png')">
+                    <div class="swiper-slide hero-slide" style="background-image:url('assets/images/slider-1.png')">
                         <div class="hero-content">
                             <h1>Premium Organic Indian Spices</h1>
+                            <p>Pure, aromatic & naturally sourced spices for healthy cooking.</p>
+                            <a href="product_single.php" class="btn-shop">Shop Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide hero-slide" style="background-image:url('assets/images/spices-slider-1.png')">
+                        <div class="hero-content">
+                            <h1>Hindustan Spices</h1>
                             <p>Pure, aromatic & naturally sourced spices for healthy cooking.</p>
                             <a href="product_single.php" class="btn-shop">Shop Now <i class="fas fa-arrow-right"></i></a>
                         </div>

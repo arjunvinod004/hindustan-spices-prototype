@@ -4,7 +4,7 @@ include 'components/header.php';
 ?>
 
 <!-- section -->
-
+<main id="main-content">
 <section class="cart-section">
 <div class="container">
         <div class="row">
@@ -60,9 +60,9 @@ include 'components/header.php';
                                 </td>
                             </tr>
 
-                           
 
-                          
+
+
                         </tbody>
                     </table>
                 </div>
@@ -77,7 +77,7 @@ include 'components/header.php';
                         <span>Subtotal</span>
                         <span id="subtotal">₹90.93</span>
                     </div>
-                  
+
                     <div class="summary-row total">
                         <span>Total</span>
                         <span id="total">₹90.93</span>
@@ -89,15 +89,15 @@ include 'components/header.php';
                     </a>
 
                   </div>
-                   
-                
-                   
+
+
+
                 </div>
             </div>
         </div>
     </div>
 </section>
-
+</main>
 
 <!-- footer -->
 <?php

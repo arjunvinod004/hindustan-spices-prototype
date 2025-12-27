@@ -5,7 +5,7 @@ include 'components/header.php';
 
 <!-- section -->
 
-
+ <main id="main-content">
 <section class="contact-section">
     <!-- Hero Section -->
     <div class="contact-hero">
@@ -94,7 +94,7 @@ include 'components/header.php';
 
 
 </section>
-
+</main>
 <!-- Footer -->
   <?php
 include 'components/footer.php';

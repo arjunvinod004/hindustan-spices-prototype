@@ -2,7 +2,7 @@
 include 'components/header.php';
 ?>
 
-
+<main id="main-content">
 <section class="checkout-section">
     <!-- Main Content -->
     <div class="checkout-container">
@@ -46,7 +46,7 @@ include 'components/header.php';
                             </div>
                         </div>
 
-                       
+
 
                         <div class="row">
                             <div class="col-md-6">
@@ -60,14 +60,14 @@ include 'components/header.php';
                                     <label class="form-label">City </label>
                                     <input type="text" class="form-control" placeholder="New York" required>
                                 </div>
-                            
+
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                
+
                                   <label class="form-label">Country </label>
                                     <select class="form-select" required>
                                         <option value="">Select Country</option>
@@ -95,7 +95,7 @@ include 'components/header.php';
                             <input type="text" class="form-control" placeholder="123 Main Street" required>
                         </div>
 
-                     
+
                     </form>
                 </div>
 
@@ -121,9 +121,9 @@ include 'components/header.php';
                             <div class="cart-item-name">Curry Leaf</div>
                             <div class="cart-item-price">₹12.99</div>
                             <div class="cart-item-quantity">
-                                
+
                                 <span>2</span>
-                              
+
                             </div>
                         </div>
                         <div style="font-weight: 600;">₹25.98</div>
@@ -135,9 +135,9 @@ include 'components/header.php';
                             <div class="cart-item-name">Sarvasugandhi</div>
                             <div class="cart-item-price">₹15.99</div>
                             <div class="cart-item-quantity">
-                               
+
                                 <span>1</span>
-                              
+
                             </div>
                         </div>
                         <div style="font-weight: 600;">₹15.99</div>
@@ -149,15 +149,15 @@ include 'components/header.php';
                             <div class="cart-item-name">Pepper Mint</div>
                             <div class="cart-item-price">₹9.99</div>
                             <div class="cart-item-quantity">
-                               
+
                                 <span>3</span>
-                                
+
                             </div>
                         </div>
                         <div style="font-weight: 600;">₹29.97</div>
                     </div>
 
-                    
+
 
                     <!-- Summary -->
                     <div class="summary-row">
@@ -168,7 +168,7 @@ include 'components/header.php';
                         <span>Shipping</span>
                         <span>₹5.00</span>
                     </div>
-                    
+
                     <div class="summary-row">
                         <span style="color: #4CAF50;">Discount</span>
                         <span style="color: #4CAF50;">-₹10.00</span>
@@ -187,7 +187,7 @@ include 'components/header.php';
         </div>
     </div>
 </section>
-
+</main>
     <?php
 include 'components/footer.php';
 ?>
