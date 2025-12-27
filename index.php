@@ -2,6 +2,7 @@
 include 'components/header.php';
 ?>
 <!-- Hero Section -->
+<main id="main-content">
 <div class="container-fluid p-0">
       <div class="hero-section">
             <div class="swiper hero-slider">
@@ -22,7 +23,8 @@ include 'components/header.php';
 
                     <div class="swiper-slide hero-slide" style="background-image:url('assets/images/spices-slider-1.png')">
                         <div class="hero-content">
-                            <h1>Organic Ingredients<br>Healthy Skin</h1>
+                            <h1>Premium Organic Indian Spices</h1>
+                            <p>Pure, aromatic & naturally sourced spices for healthy cooking.</p>
                             <a href="product_single.php" class="btn-shop">Shop Now <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -401,7 +403,7 @@ include 'components/header.php';
             </div>
         </div>
 </div>
-
+</main>
 <?php
 include 'components/footer.php';
 ?>
