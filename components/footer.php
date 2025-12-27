@@ -45,8 +45,19 @@
                 </ul>
             </div>
 
+
+            <!-- gmap -->
+
+            <div class="col-lg-3 col-md-6 mb-3">
+                <div class="embed-map-responsive">
+                    <h3>Location</h3>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.458856912318!2d77.16304097503877!3d9.641776379096175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06553c1e9ee915%3A0x1bc87030d322f0f2!2sHindustan%20Spices%20%26%20Herbals!5e0!3m2!1sen!2sin!4v1766816463168!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+           
+            </div>
+
             <!-- Social -->
-            <div class="col-lg-6 col-md-12 text-lg-end">
+            <div class="col-lg-3 col-md-12 text-lg-end">
                 <div class="social-icons" aria-label="Social media links">
                     <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                         <i class="fab fa-facebook"></i>
