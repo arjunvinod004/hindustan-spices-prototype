@@ -51,7 +51,8 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/07/hindustanspices-8-298x298.jpg" class="img-fluid">
                         </div>
-                        <div class="product-name">Cumin</div>
+                         <a href="product_filter.php"><div class="product-name">Cumin</div></a>
+                       
                     </div>
                 </div>
 
@@ -60,7 +61,8 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Spices-in-Kerala-4-298x298.jpeg" class="img-fluid">
                         </div>
-                        <div class="product-name">Cinamon</div>
+                       
+                        <a href="product_filter.php"><div class="product-name">Cinamon</div></a>
                     </div>
                 </div>
 
@@ -69,7 +71,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <div class="product-name">Turmeric Powder</div>
+                         <a href="product_filter.php"><div class="product-name">Turmeric Powder</div></a>
                     </div>
                 </div>
 
@@ -78,7 +80,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <div class="product-name">Turmeric Powder</div>
+                        <a href="product_filter.php"><div class="product-name">Turmeric Powder</div></a>
                     </div>
                 </div>
                   <div class="swiper-slide">
@@ -86,7 +88,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <div class="product-name">Turmeric Powder</div>
+                        <a href="product_filter.php"><div class="product-name">Turmeric Powder</div></a>
                     </div>
                 </div>
                   <div class="swiper-slide">
@@ -94,7 +96,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <div class="product-name">Turmeric Powder</div>
+                        <a href="product_filter.php"><div class="product-name">Turmeric Powder</div></a>
 
                     </div>
                 </div>
@@ -103,7 +105,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <div class="product-name">Turmeric Powder</div>
+                        <a href="product_filter.php"><div class="product-name">Turmeric Powder</div></a>
                     </div>
                 </div>
                   <div class="swiper-slide">
@@ -111,7 +113,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <div class="product-name">Turmeric Powder</div>
+                        <a href="product_filter.php"><div class="product-name">Turmeric Powder</div></a>
                     </div>
                 </div>
 

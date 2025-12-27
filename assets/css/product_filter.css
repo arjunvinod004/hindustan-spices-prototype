@@ -123,10 +123,7 @@
 
         /* Product Grid */
         .products-section {
-           
-            border-radius: 15px;
-            padding: 2rem;
-          
+        border-radius: 15px;
         }
 
         .products-header {
@@ -173,122 +170,149 @@
         }
 
         /* Product Card */
-        .product-card {
-            background: white;
-            border-radius: 15px;
-            padding: 1.5rem;
-            transition: all 0.3s;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-        }
+       
 
-        .product-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-        }
-
-        .product-image-wrapper {
-            position: relative;
-            margin-bottom: 1rem;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .product-image {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-            border-radius: 10px;
-        }
-
-        .product-badge {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            background: #4CAF50;
-            color: white;
-            padding: 0.25rem 0.75rem;
+        .ingredient-card {
+            background: #fff;
             border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 600;
+            /* padding: 2rem; */
+            text-align: center;
+            transition: transform 0.4s ease;
+             overflow: hidden;
         }
 
-        .product-badge.sale {
-            background: #f44336;
+        .ingredient-image {
+            width: 100%;
+            height: 200px;
+            /* border-radius: 50%; */
+            margin: 0 auto 1.5rem;
+            object-fit: cover;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            transition: transform 0.4s ease;
         }
 
-        .product-badge.new {
-            background: #2196F3;
+        .ingredient-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
         }
 
-        .product-actions {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-            opacity: 0;
-            transition: all 0.3s;
+        .ingredient-desc {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 0.9rem;
+            padding: 5px;
         }
 
-        .product-card:hover .product-actions {
-            opacity: 1;
-        }
-
-        .action-btn {
-            width: 35px;
-            height: 35px;
-            border-radius: 50%;
+        /* Reviews Section */
+        .reviews-section {
             background: white;
-            border: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            border-radius: 30px;
+            padding: 3rem 2rem;
+            margin: 3rem 0;
         }
 
-        .action-btn:hover {
-            background: #667eea;
-            color: white;
+        .review-card 
+        {
+            padding: 2rem;
+            text-align: center;
         }
 
-        .product-info {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
+        .reviewer-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            object-fit: cover;
         }
 
-        .product-category {
-            color: #999;
-            font-size: 0.85rem;
-            margin-bottom: 0.5rem;
+        .reviewer-image img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
         }
 
-        .product-name {
+        .review-text {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .reviewer-name {
             font-weight: 600;
-            margin-bottom: 0.5rem;
-            font-size: 1.1rem;
         }
 
-        .product-rating {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            margin-bottom: 0.75rem;
+    .ingredient-actions {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+        .btn-select-options {
+            background-color: var(--btn-color);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 0.5rem 1.5rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            flex: 1;
+            margin-bottom: 0;
+            text-wrap-mode: nowrap;
         }
 
-        .stars {
-            color: #FFC107;
+        .btn-select-options:hover {
+            background-color: #ed1c24;
+            transform: translateY(-2px);
         }
 
-        .rating-count {
-            color: #999;
-            font-size: 0.85rem;
+        .btn-wishlist {
+            background-color: var(--btn-color);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 0.5rem 1.5rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            flex: 1;
+            margin-bottom: 0;
+            text-wrap-mode: nowrap;
         }
+
+    .btn-add-cart {
+    background-color: var(--btn-color);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    flex: 1;
+    margin-bottom: 0;
+    text-wrap-mode: nowrap;
+    }
+
+    .btn-add-cart:hover 
+    {
+            background-color: #ed1c24;
+            transform: translateY(-2px);
+    }
+
+    .btn-wishlist:hover {
+            background-color: #ed1c24;
+            transform: translateY(-2px);
+
+    }
 
         .product-price {
             display: flex;
@@ -318,20 +342,28 @@
             font-weight: 600;
         }
 
-        .btn-add-cart {
-            background: var(--primary-color);
-            color: white;
-            border: none;
-            padding: 0.75rem;
-            border-radius: 10px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
+.qty-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    border: none;
+}
 
-        .btn-add-cart:hover {
-            background: #000;
-        }
+.qty-btn {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: var(--btn-color);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
 
 
         .filter-toggle {
@@ -391,4 +423,17 @@
                 flex-direction: column;
                 align-items: flex-start;
             }
+
+        
+    .ingredient-actions {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .products-section{
+        padding: 0px;
+    }
+
         }
