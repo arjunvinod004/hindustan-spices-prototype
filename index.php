@@ -7,19 +7,7 @@ include 'components/header.php';
       <div class="hero-section">
             <div class="swiper hero-slider">
                 <div class="swiper-wrapper">
-                    <!-- <div class="swiper-slide hero-slide" style="background-image:url('https://www.qfc.com/content/v2/binary/image/blog/health/add-spices-herbs-to-diet/imageset_spices-and-herbs_05-19--1_spices_and_herbs_article_standard_article_blog_hero_desktop_1280x424_p5_health_article_tablescapes_p_23-tkc-0049.jpg')">
-                        <div class="hero-content">
-                            <h1>Natural Skincare<br>for Every You</h1>
-                            <button class="btn-shop">Shop Now <i class="fas fa-arrow-right"></i></button>
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="swiper-slide hero-slide" style="background-image:url('https://img.freepik.com/premium-photo/culinary-spices-ingredients-flat-lay_1001175-60440.jpg')">
-                        <div class="hero-content">
-                            <h1>Pure & Natural<br>Beauty Products</h1>
-                            <button class="btn-shop">Shop Now <i class="fas fa-arrow-right"></i></button>
-                        </div>
-                    </div> -->
+                   
 
                     <div class="swiper-slide hero-slide" style="background-image:url('assets/images/slider-1.png')">
                         <div class="hero-content">
@@ -58,7 +46,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/07/hindustanspices-8-298x298.jpg" class="img-fluid">
                         </div>
-                         <a href="product_filter.php"><div class="product-name">Cumin</div></a>
+                         <a href="product_single.php"><div class="product-name">Cumin</div></a>
                        
                     </div>
                 </div>
@@ -69,7 +57,7 @@ include 'components/header.php';
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Spices-in-Kerala-4-298x298.jpeg" class="img-fluid">
                         </div>
                        
-                        <a href="product_filter.php"><div class="product-name">Cinamon</div></a>
+                        <a href="product_single.php"><div class="product-name">Cinamon</div></a>
                     </div>
                 </div>
 
@@ -78,7 +66,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                         <a href="product_filter.php"><div class="product-name">Turmeric Powder</div></a>
+                         <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
                     </div>
                 </div>
 
@@ -87,7 +75,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <a href="product_filter.php"><div class="product-name">Turmeric Powder</div></a>
+                        <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
                     </div>
                 </div>
                   <div class="swiper-slide">
@@ -95,7 +83,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <a href="product_filter.php"><div class="product-name">Turmeric Powder</div></a>
+                        <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
                     </div>
                 </div>
                   <div class="swiper-slide">
@@ -103,7 +91,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <a href="product_filter.php"><div class="product-name">Turmeric Powder</div></a>
+                        <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
 
                     </div>
                 </div>
@@ -112,7 +100,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <a href="product_filter.php"><div class="product-name">Turmeric Powder</div></a>
+                        <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
                     </div>
                 </div>
                   <div class="swiper-slide">
@@ -120,7 +108,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <a href="product_filter.php"><div class="product-name">Turmeric Powder</div></a>
+                        <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
                     </div>
                 </div>
 

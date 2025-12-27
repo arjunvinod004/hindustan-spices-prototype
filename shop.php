@@ -3,7 +3,9 @@
 include 'components/header.php';
 ?>
 
+
 <!-- section -->
+  <main id="main-content">
  <section class="filter-sections">
       <!-- Filter Overlay for Mobile -->
     <div class="filter-overlay" onclick="toggleFilters()"></div>
@@ -51,62 +53,36 @@ include 'components/header.php';
                                 Seeds <span class="filter-count">(9)</span>
                             </button>
                         </div>
-                    </div>
-
-                    
-
-                    <!-- Brand -->
-                    <div class="filter-section">
-                        <h6>Brand</h6>
-                        <div class="filter-option">
-                            <button class="filter-btn" onclick="toggleFilter(this)">
-                                Hindustan Spices <span class="filter-count">(42)</span>
-                            </button>
-                        </div>
-                        <div class="filter-option">
-                            <button class="filter-btn" onclick="toggleFilter(this)">
-                                Organic Valley <span class="filter-count">(28)</span>
-                            </button>
-                        </div>
-                        <div class="filter-option">
-                            <button class="filter-btn" onclick="toggleFilter(this)">
-                                Pure Nature <span class="filter-count">(16)</span>
-                            </button>
-                        </div>
-                    </div>
-
-                    
+                    </div>    
                 </div>
             </div>
 
-
-             <!-- <div class="product-price">
-                                        <span class="price-current">$12.99</span>
-                                    </div> -->
-
             <!-- Products Grid -->
-            <div class="col-lg-9">
+            <div class="col-lg-9 mt-4">
                 <div class="products-section">
                          <div class="row g-4 mb-5">
-            <div class="col-6  col-lg-3">
+            <div class="col-6  col-lg-4">
                 <div class="ingredient-card">
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Curry-Leaf-1-298x298.jpg" class="ingredient-image" alt="Aloe">
                     <div class="ingredient-title">Curry Leaf</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
                     <div class="product-price">
-                                        <span class="price-current">$12.99</span>
-                                    </div>
+                    <span class="price-current">₹12.99</span>
+                    </div>
                     <div class="ingredient-actions">
                     <a href="product_single.php" class="btn-select-options"> <i class="fas fa-shopping-cart mx-1"></i>Select options</a>
                     <button class="btn-wishlist"> <i class="fa-solid fa-heart mx-1"></i>Wishlist</button>
                     </div>
                 </div>
             </div>
-            <div class="col-6  col-lg-3">
+            <div class="col-6  col-lg-4">
                 <div class="ingredient-card">
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/07/hindustanspices-1-298x298.jpg" class="ingredient-image" alt="Tea Tree">
                     <div class="ingredient-title">Sarvasugandhi</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+                    <div class="product-price">
+                    <span class="price-current">₹12.99</span>
+                    </div>
                     <div class="ingredient-actions">
                     <button class="btn-add-cart"> <i class="fas fa-shopping-cart mx-1"></i>Add to Cart</button>
                     <div class="qty-wrapper d-none">
@@ -119,11 +95,14 @@ include 'components/header.php';
 
                 </div>
             </div>
-            <div class=" col-6  col-lg-3">
+            <div class=" col-6  col-lg-4">
                 <div class="ingredient-card">
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Pepper-Mint-298x298.jpg" class="ingredient-image" alt="Rosehip">
                     <div class="ingredient-title">Pepper Mint</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+                    <div class="product-price">
+                    <span class="price-current">₹12.99</span>
+                    </div>
                     <div class="ingredient-actions">
                     <button class="btn-add-cart"> <i class="fas fa-shopping-cart mx-1"></i>Add to Cart</button>
                     <div class="qty-wrapper d-none">
@@ -136,11 +115,14 @@ include 'components/header.php';
                 </div>
             </div>
 
-            <div class=" col-6 col-lg-3">
+            <div class=" col-6 col-lg-4">
                 <div class="ingredient-card">
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Shatavari-298x298.jpg" class="ingredient-image" alt="Rosehip">
                     <div class="ingredient-title">Shatavari</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+                    <div class="product-price">
+                    <span class="price-current">₹12.99</span>
+                    </div>
                    <div class="ingredient-actions">
                     <button class="btn-add-cart"> <i class="fas fa-shopping-cart mx-1"></i>Add to Cart</button>
                     <div class="qty-wrapper d-none">
@@ -153,11 +135,14 @@ include 'components/header.php';
                 </div>
             </div>
 
-             <div class=" col-6 col-lg-3">
+             <div class=" col-6 col-lg-4">
                 <div class="ingredient-card">
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/07/hindustanspices-1-298x298.jpg" class="ingredient-image" alt="Rosehip">
                     <div class="ingredient-title">Shatavari</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+                    <div class="product-price">
+                    <span class="price-current">₹12.99</span>
+                    </div>
                    <div class="ingredient-actions">
                     <button class="btn-add-cart"> <i class="fas fa-shopping-cart mx-1"></i>Add to Cart</button>
                     <div class="qty-wrapper d-none">
@@ -169,11 +154,14 @@ include 'components/header.php';
                     </div>
                 </div>
             </div>
-             <div class="col-6 col-lg-3">
+             <div class="col-6 col-lg-4">
                 <div class="ingredient-card">
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/07/hindustanspices-1-298x298.jpg" class="ingredient-image" alt="Rosehip">
                     <div class="ingredient-title">Shatavari</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+                    <div class="product-price">
+                    <span class="price-current">₹12.99</span>
+                    </div>
                    <div class="ingredient-actions">
                     <button class="btn-add-cart"> <i class="fas fa-shopping-cart mx-1"></i>Add to Cart</button>
                     <div class="qty-wrapper d-none">
@@ -186,11 +174,14 @@ include 'components/header.php';
                     </div>
                 </div>
             </div>
-             <div class="col-6 col-lg-3">
+             <div class="col-6 col-lg-4">
                 <div class="ingredient-card">
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Pepper-Mint-298x298.jpg" class="ingredient-image" alt="Rosehip">
                     <div class="ingredient-title">Shatavari</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+                    <div class="product-price">
+                    <span class="price-current">₹12.99</span>
+                    </div>
                    <div class="ingredient-actions">
                     <button class="btn-add-cart"> <i class="fas fa-shopping-cart mx-1"></i>Add to Cart</button>
                     <div class="qty-wrapper d-none">
@@ -202,11 +193,14 @@ include 'components/header.php';
                     </div>
                 </div>
             </div>
-             <div class="col-6 col-lg-3">
+             <div class="col-6 col-lg-4">
                 <div class="ingredient-card">
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Shatavari-298x298.jpg" class="ingredient-image" alt="Rosehip">
                     <div class="ingredient-title">Shatavari</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+                    <div class="product-price">
+                    <span class="price-current">₹12.99</span>
+                    </div>
                    <div class="ingredient-actions">
                     <button class="btn-add-cart"> <i class="fas fa-shopping-cart mx-1"></i>Add to Cart</button>
                     <div class="qty-wrapper d-none">
@@ -224,15 +218,17 @@ include 'components/header.php';
             </div>        
         </div>
  </section>
+</main>
 
- <script>
-     function toggleFilters() {
-            const sidebar = document.getElementById('filterSidebar');
-            const overlay = document.querySelector('.filter-overlay');
-            sidebar.classList.toggle('show');
-            overlay.classList.toggle('show');
-        }
- </script>
+<script>
+function toggleFilters() 
+{
+    const sidebar = document.getElementById('filterSidebar');
+    const overlay = document.querySelector('.filter-overlay');
+    sidebar.classList.toggle('show');
+    overlay.classList.toggle('show');
+}
+</script>
 
 <!-- footer -->
 <?php
