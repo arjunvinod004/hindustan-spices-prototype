@@ -64,7 +64,15 @@ $page_assets = [
     "contact" => [
         "css" => ["assets/css/contact.css"],
         "js"  => ["assets/js/contact.js"]
-]
+    ],
+    "wishlist" => [
+        "css" => ["assets/css/wishlist.css"],
+        "js"  => ["assets/js/wishlist.js"]
+    ],
+    "product_filter" => [
+        "css" => ["assets/css/product_filter.css"],
+        "js"  => ["assets/js/product_filter.js"]
+    ],
 ];
 ?>
 
