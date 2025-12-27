@@ -18,6 +18,10 @@
             color: var(--primary-color);
             text-decoration: none;
         }
+        .social-icons a {
+                color: #333333;
+                font-size: 2rem;
+        }
 
         /* Fixed Sidebar */
         /* Sidebar */
