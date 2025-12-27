@@ -2,12 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO Title -->
+    <title>Hindustan Spices | Premium Indian Spices & Masala Online</title>
+    <!-- Meta Description -->
+    <meta name="description" content="Buy premium quality Indian spices and masalas from Hindustan Spices. 100% natural, aromatic, and fresh spices delivered to your doorstep.">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://coinoneglobal.com/hindustan-spices-prototype/">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- Preconnect (Performance Boost) -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Hindustan Spices – Premium Indian Spices">
+    <meta property="og:description" content="Authentic Indian spices & masalas. Fresh, pure, and aromatic.">
+    <meta property="og:image" content="https://coinoneglobal.com/assets/images/og-image.jpg">
+    <meta property="og:url" content="https://coinoneglobal.com/hindustan-spices-prototype/">
+    <meta property="og:type" content="website">
 
     <?php
 $current_page = basename($_SERVER["PHP_SELF"], ".php");
