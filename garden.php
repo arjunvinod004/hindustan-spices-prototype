@@ -5,9 +5,17 @@ include 'components/header.php';
 
 <!-- section -->
 <section class="garden-section">
-    <div class="container">
-        <h2 class="section-title"> Garden Gallery</h2>
 
+<!-- Hero Section -->
+    <div class="garden-hero">
+         <img src="https://s7ap1.scene7.com/is/image/itcportalprod/the-worlds-top-five-most-expensive-spices-a-luxurious-culinary-experience?fmt=webp-alpha" alt="image" class="garden-hero-bg">
+        <div class="container">
+            <h1>Hindustan Spices Gardens</h1>
+            <p>Premium Indian spices supplier from Kerala. Reach us for enquiries.</p>
+        </div>
+    </div>
+
+    <div class="container garden-container">
         <!-- Tab Navigation -->
         <div class="tab-navigation">
             <button class="tab-btn active" data-tab="garden1">Garden 1</button>
