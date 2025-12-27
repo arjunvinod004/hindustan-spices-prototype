@@ -4,7 +4,7 @@ include 'components/header.php';
 ?>
 
 <!-- section -->
- <main id="main-content">
+ <main id="main-content">       
 <section class="garden-section">
 
 <!-- Hero Section -->

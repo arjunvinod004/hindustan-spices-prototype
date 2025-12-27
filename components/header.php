@@ -128,7 +128,7 @@ if (!empty($page_assets[$current_page]["css"])) {
                             <i class="fa-solid fa-heart"></i>
                             <span class="badge-count">5</span>
                     </a>
-                       
+
                     </div>
 
                     <!-- Cart Icon -->
