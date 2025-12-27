@@ -38,7 +38,11 @@ $page_assets = [
     "garden" => [
         "css" => ["assets/css/garden.css"],
         "js"  => ["assets/js/garden.js"]
-    ]
+    ],
+    "contact" => [
+        "css" => ["assets/css/contact.css"],
+        "js"  => ["assets/js/contact.js"]
+]
 ];
 ?>
 
@@ -66,7 +70,7 @@ if (!empty($page_assets[$current_page]["css"])) {
                     <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="garden.php">Garden</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                 </ul>
                 <div class="search-bar me-3">
                     <i class="fas fa-search"></i>
