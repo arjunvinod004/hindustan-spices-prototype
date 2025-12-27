@@ -91,20 +91,8 @@ include 'components/header.php';
 
 </div>
 
-<<<<<<< HEAD
-   
-=======
-    <!-- Map Section -->
-    <div class="container">
-        <div class="map-section">
-            <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.0404167962705!2d76.30604731479595!3d9.986404692829584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-    </div>
+ 
 
-
->>>>>>> 0bc1cf2182830cadb7d744b15aca5da97706ccaf
 </section>
 
 <!-- Footer -->
