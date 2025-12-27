@@ -98,7 +98,7 @@ if (!empty($page_assets[$current_page]["css"])) {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto me-4">
                     <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="product_filter">Shop</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="garden.php">Garden</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
