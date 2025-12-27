@@ -77,7 +77,7 @@ if (!empty($page_assets[$current_page]["css"])) {
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="#"><img width="80" src="hindustan-spices-prototype/../assets/images/hindustan_logo.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img width="80" src="hindustan-spices-prototype/../assets/images/hindustan_logo.png" alt="Hindustan Spices - Premium Indian Spices"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
