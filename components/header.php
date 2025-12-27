@@ -91,7 +91,7 @@ if (!empty($page_assets[$current_page]["css"])) {
         <div class="container">
             <!-- Logo -->
             <a class="navbar-brand" href="index.php">
-                <img src="http://localhost/hindustan-spices-prototype/assets/images/hindustan_logo.png" alt="Hindustan Spices">
+                <img src="https://coinoneglobal.com/hindustan-spices-prototype/assets/images/hindustan_logo.png" alt="Hindustan Spices">
             </a>
 
             <!-- Collapsible Menu -->

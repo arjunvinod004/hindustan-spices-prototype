@@ -13,7 +13,7 @@ include 'components/header.php';
                 <div class="cart-card">
                     <div class="d-flex justify-content-between align-items-center mb-3">
                         <h3 style="margin: 0; font-weight: 600;">Cart (4)</h3>
-                        <a href="index.php" class="btn-continue">
+                        <a href="shop.php" class="btn-continue">
                             <i class="fas fa-arrow-left"></i>
                             Continue Shopping
                         </a>
