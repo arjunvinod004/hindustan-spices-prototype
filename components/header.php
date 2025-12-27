@@ -34,6 +34,10 @@ $page_assets = [
     "cart" => [
         "css" => ["assets/css/cart.css"],
         "js"  => ["assets/js/cart.js"]
+    ],
+    "garden" => [
+        "css" => ["assets/css/garden.css"],
+        "js"  => ["assets/js/garden.js"]
     ]
 ];
 ?>
@@ -61,7 +65,7 @@ if (!empty($page_assets[$current_page]["css"])) {
                     <!-- <li class="nav-item"><a class="nav-link" href="index1.php">Home 1</a></li> -->
                     <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Garden</a></li>
+                    <li class="nav-item"><a class="nav-link" href="garden.php">Garden</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                 </ul>
                 <div class="search-bar me-3">
@@ -75,7 +79,7 @@ if (!empty($page_assets[$current_page]["css"])) {
 
                     </div>
                     <div class="cart-icon me-3">
-                        
+
                         <i class="fa-solid fa-heart"></i>
                         <span class="cart-badge">0</span>
                     </div>
@@ -84,7 +88,7 @@ if (!empty($page_assets[$current_page]["css"])) {
                         <i class="fas fa-shopping-cart fa-lg"></i>
                         <span class="cart-badge">0</span>
                         </a>
-                      
+
                     </div>
 
                 </div>
