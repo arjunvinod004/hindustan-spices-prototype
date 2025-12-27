@@ -11,14 +11,11 @@ include 'components/header.php';
     <div class="contact-hero">
          <img src="https://s7ap1.scene7.com/is/image/itcportalprod/the-worlds-top-five-most-expensive-spices-a-luxurious-culinary-experience?fmt=webp-alpha" alt="image" class="contact-hero-bg">
         <div class="container">
-            <h1>Get in Touch</h1>
-            <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            <h1>Contact Hindustan Spices</h1>
+            <p>Premium Indian spices supplier from Kerala. Reach us for enquiries.</p>
         </div>
     </div>
 
- 
-
-  
 
 <div class="container">
 
@@ -31,28 +28,28 @@ include 'components/header.php';
                             <strong>Address</strong><br>
                           Hindustan Spices <br> Chakkupallam P.O, 5thMile <br>
                           Kumily -Munnar Road, Idukki (D) Kerala(S), South India <br>
-                          Pin:685509                       
+                          Pin:685509
                          </div>
                     </div>
                     <div class="info-item">
                         <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
                         <div>
                             <strong>Phone</strong><br>
-                          +919746827724                        
+                          +919746827724
                         </div>
                     </div>
                     <div class="info-item">
                         <div class="info-icon"> <i class="fas fa-envelope"></i></div>
                         <div>
                             <strong>Email</strong><br>
-                           info@hindustanspices.in                        
+                           info@hindustanspices.in
                         </div>
                     </div>
                     <div class="info-item">
                         <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
                         <div>
                             <strong>Working Hours</strong><br>
-                            10:00 AM - 6:00 PM                        
+                            10:00 AM - 6:00 PM
                         </div>
                     </div>
                 </div>
@@ -80,7 +77,7 @@ include 'components/header.php';
                           <select name="product_name" class="form-select" id="product_name">
                             <option value="">select product</option>
                             </select>
-                                                        
+
                              <div class="error" id="error_product_name" style="color:red;"></div>
                         </div>
                     </div>
@@ -103,7 +100,7 @@ include 'components/header.php';
         </div>
     </div>
 
-   
+
 </section>
 
 <!-- Footer -->
