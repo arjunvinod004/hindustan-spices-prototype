@@ -30,7 +30,7 @@
         .cart-container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 1rem 3rem;
+            /* padding: 0 1rem 3rem; */
         }
 
         /* Cart Table */
@@ -224,12 +224,6 @@
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s;
-    display: flow;
-    margin-bottom: 0;
-    margin-top: 1rem;
-    text-wrap-mode: nowrap;
-    width: 100%;
-    text-align: center;
         }
 
         .btn-checkout:hover {
@@ -310,8 +304,18 @@
                 position: relative;
                 top: 0;
             }
+
+            .btn-checkout{
+                 display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                white-space: nowrap;
+            }
             .btn-continue{
             text-wrap-mode: nowrap;
             padding: 10px;
+            }
+            .wishlist{
+                gap: 12px;
             }
         }

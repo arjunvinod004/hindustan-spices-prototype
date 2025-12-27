@@ -64,7 +64,15 @@ $page_assets = [
     "contact" => [
         "css" => ["assets/css/contact.css"],
         "js"  => ["assets/js/contact.js"]
-]
+    ],
+    "wishlist" => [
+        "css" => ["assets/css/wishlist.css"],
+        "js"  => ["assets/js/wishlist.js"]
+    ],
+    "product_filter" => [
+        "css" => ["assets/css/product_filter.css"],
+        "js"  => ["assets/js/product_filter.js"]
+    ],
 ];
 ?>
 
@@ -105,9 +113,10 @@ if (!empty($page_assets[$current_page]["css"])) {
 
                     </div>
                     <div class="cart-icon me-3">
-
+                        <a href="wishlist.php">
                         <i class="fa-solid fa-heart"></i>
                         <span class="cart-badge">0</span>
+                        </a>
                     </div>
                     <div class="cart-icon">
                         <a href="cart.php">
