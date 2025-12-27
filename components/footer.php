@@ -48,17 +48,24 @@
 
             <!-- gmap -->
 
-            <div class="col-lg-3 col-md-6 mb-3">
-                
-                     <div class="embed-map-responsive"><div class="embed-map-container">
-                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.458856912318!2d77.16304097503877!3d9.641776379096175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06553c1e9ee915%3A0x1bc87030d322f0f2!2sHindustan%20Spices%20%26%20Herbals!5e0!3m2!1sen!2sin!4v1766816463168!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <a href="https://sprunkiretake.net" style="font-size:2px!important;color:gray!important;position:absolute;bottom:0;left:0;z-index:1;max-height:1px;overflow:hidden">sprunki retake</a></div><style>.embed-map-responsive{position:relative;text-align:right;width:100%;height:0;padding-bottom:66.66666666666666%;}.embed-map-container{overflow:hidden;background:none!important;width:100%;height:100%;position:absolute;top:0;left:0;}.embed-map-frame{width:100%!important;height:100%!important;position:absolute;top:0;left:0;}</style></div>
-               
-           
-            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+    <div class="map-responsive">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.458856912318!2d77.16304097503877!3d9.641776379096175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06553c1e9ee915%3A0x1bc87030d322f0f2!2sHindustan%20Spices%20%26%20Herbals!5e0!3m2!1sen!2sin!4v1766816463168!5m2!1sen!2sin"
+            width="100%"
+            height="200"
+            style="border:0;"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Hindustan Spices & Herbals Location Map">
+        </iframe>
+    </div>
+</div>
+
 
             <!-- Social -->
-            <div class="col-lg-3 col-md-12 text-lg-end">
+            <div class="col-lg-2 col-md-12 text-lg-end">
                 <div class="social-icons" aria-label="Social media links">
                     <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                         <i class="fab fa-facebook"></i>

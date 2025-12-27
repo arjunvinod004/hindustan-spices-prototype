@@ -64,15 +64,7 @@ $page_assets = [
     "contact" => [
         "css" => ["assets/css/contact.css"],
         "js"  => ["assets/js/contact.js"]
-    ],
-    "wishlist" => [
-        "css" => ["assets/css/wishlist.css"],
-        "js"  => ["assets/js/wishlist.js"]
-    ],
-    "product_filter" => [
-        "css" => ["assets/css/product_filter.css"],
-        "js"  => ["assets/js/product_filter.js"]
-    ],
+]
 ];
 ?>
 
@@ -86,74 +78,47 @@ if (!empty($page_assets[$current_page]["css"])) {
 
 </head>
 <body>
-    <!-- Sticky Navigation -->
-    <nav class="navbar navbar-expand-lg" id="mainNav">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <!-- Logo -->
-            <a class="navbar-brand" href="index.php">
-                <img src="http://localhost/hindustan-spices-prototype/assets/images/hindustan_logo.png" alt="Hindustan Spices">
-            </a>
-
-            <!-- Collapsible Menu -->
+            <a class="navbar-brand" href="#"><img width="80" src="hindustan-spices-prototype/../assets/images/hindustan_logo.png" alt="Hindustan Spices - Premium Indian Spices"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto me-4">
                     <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="index1.php">Home 1</a></li> -->
                     <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="garden.php">Garden</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                 </ul>
-
-                <!-- Desktop Search Bar -->
-                <div class="search-bar-desktop d-none d-lg-flex">
-                    <input type="text" placeholder="Search products...">
+                <div class="search-bar me-3">
                     <i class="fas fa-search"></i>
+                    <input type="text" class="form-control" placeholder="Search...">
                 </div>
-            </div>
+                <div class="d-flex align-items-center nav-items">
 
-            <!-- Right Side Container: Icons + Search + Toggle -->
-            <div class="right-side-container">
-                <!-- User, Wishlist, Cart Icons (Always Visible) -->
-                <div class="nav-icons">
-                    <!-- User Icon -->
-                    <div class="icon-wrapper">
-                        <a href="login.html">
-                            <i class="fa-solid fa-user"></i>
-                        </a>
+                      <div class="cart-icon mx-3">
+                        <a class="navbars" href="login.html"><i class="fa-solid fa-user"></i></a>
+
                     </div>
+                    <div class="cart-icon me-3">
 
-                    <!-- Wishlist Icon -->
-                    <div class="icon-wrapper">
                         <i class="fa-solid fa-heart"></i>
-                        <span class="badge-count">3</span>
+                        <span class="cart-badge">0</span>
                     </div>
-
-                    <!-- Cart Icon -->
-                    <div class="icon-wrapper">
+                    <div class="cart-icon">
                         <a href="cart.php">
-                            <i class="fas fa-shopping-cart"></i>
-                            <span class="badge-count">5</span>
+                        <i class="fas fa-shopping-cart fa-lg"></i>
+                        <span class="cart-badge">0</span>
                         </a>
+
                     </div>
-                </div>
 
-                <!-- Mobile Search Toggle -->
-                <div class="icon-wrapper mobile-search-toggle d-lg-none" id="mobileSearchToggle">
-                    <i class="fas fa-search"></i>
                 </div>
-
-                <!-- Menu Toggle Button -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
             </div>
-
-
         </div>
-
-        <!-- Mobile Search Bar (Dropdown) -->
-        <div class="mobile-search-bar" id="mobileSearchBar">
-            <input type="text" placeholder="Search products...">
-        </div>
-    </nav>
+</nav>
 
