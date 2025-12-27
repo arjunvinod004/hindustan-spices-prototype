@@ -16,48 +16,11 @@ include 'components/header.php';
         </div>
     </div>
 
-    <!-- Info Cards -->
-    <div class="container info-cards d-none">
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="info-card">
-                    <div class="info-card-icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <h4>Visit Us</h4>
-                    <p>123 Spice Street</p>
-                    <p>Kanayannur, Kerala</p>
-                    <p>India - 682301</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="info-card">
-                    <div class="info-card-icon">
-                        <i class="fas fa-phone-alt"></i>
-                    </div>
-                    <h4>Call Us</h4>
-                    <p><a href="tel:+911234567890">+91 123 456 7890</a></p>
-                    <p><a href="tel:+911234567891">+91 123 456 7891</a></p>
-                    <p>Mon-Sat: 9:00 AM - 6:00 PM</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="info-card">
-                    <div class="info-card-icon">
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                    <h4>Email Us</h4>
-                    <p><a href="mailto:info@hindustanspices.com">info@hindustanspices.com</a></p>
-                    <p><a href="mailto:support@hindustanspices.com">support@hindustanspices.com</a></p>
-                    <p>We reply within 24 hours</p>
-                </div>
-            </div>
-        </div>
-    </div>
+ 
 
   
 
-
+<div class="container">
 
     <div class="contact-content">
                 <div class="contact-info">
@@ -128,6 +91,8 @@ include 'components/header.php';
                     <button type="submit" class="submit-btn">Send Message</button>
                 </form>
             </div>
+
+</div>
 
     <!-- Map Section -->
     <div class="container">
