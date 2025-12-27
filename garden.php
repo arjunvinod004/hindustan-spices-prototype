@@ -4,6 +4,7 @@ include 'components/header.php';
 ?>
 
 <!-- section -->
+ <main id="main-content">
 <section class="garden-section">
 
 <!-- Hero Section -->
@@ -131,7 +132,7 @@ include 'components/header.php';
         </div>
     </div>
 </section>
-
+</main>
 
 <!-- footer -->
 <?php

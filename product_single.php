@@ -1,7 +1,7 @@
 <?php
 include 'components/header.php';
 ?>
-
+<main id="main-content">
     <!-- Success Message -->
     <div class="success-message" id="successMessage">
         <i class="fas fa-check-circle me-2"></i>
@@ -161,7 +161,7 @@ include 'components/header.php';
             </div>
         </div>
     </section>
-
+</main>
     <?php
 include 'components/footer.php';
 ?>
