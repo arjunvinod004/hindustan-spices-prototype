@@ -91,6 +91,9 @@ include 'components/header.php';
 
 </div>
 
+<<<<<<< HEAD
+   
+=======
     <!-- Map Section -->
     <div class="container">
         <div class="map-section">
@@ -101,6 +104,7 @@ include 'components/header.php';
     </div>
 
 
+>>>>>>> 0bc1cf2182830cadb7d744b15aca5da97706ccaf
 </section>
 
 <!-- Footer -->
