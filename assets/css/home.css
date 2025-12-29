@@ -418,8 +418,17 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 100%);
+        /* background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 100%); */
         z-index: 1;
+    }
+    .ingredient-title {
+        font-size: 1rem;
+    }
+    .price-current {
+        font-size: 1.2rem;
+    }
+    .section-title {
+        font-size: 1.3rem;
     }
 
     .hero-slider {
@@ -429,7 +438,7 @@
         transform: none;
         padding: 0;
     }
- 
+
     .hero-slide{
         height: 50vh !important;
     }

@@ -438,7 +438,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/07/hindustanspices-8-298x298.jpg" class="img-fluid">
                         </div>
-                         <a href="product_single.php"><div class="product-name">Cumin</div></a>
+                         <a href="product_single.php"><div class="product-name">Award 1</div></a>
 
                     </div>
                 </div>
@@ -449,7 +449,7 @@ include 'components/header.php';
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Spices-in-Kerala-4-298x298.jpeg" class="img-fluid">
                         </div>
 
-                        <a href="product_single.php"><div class="product-name">Cinamon</div></a>
+                        <a href="product_single.php"><div class="product-name">Award 2</div></a>
                     </div>
                 </div>
 
@@ -458,7 +458,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                         <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
+                         <a href="product_single.php"><div class="product-name">Award 3</div></a>
                     </div>
                 </div>
 
@@ -467,7 +467,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
+                        <a href="product_single.php"><div class="product-name">Award 4</div></a>
                     </div>
                 </div>
                   <div class="swiper-slide">
@@ -475,7 +475,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
+                        <a href="product_single.php"><div class="product-name">Award 5</div></a>
                     </div>
                 </div>
                   <div class="swiper-slide">
@@ -483,7 +483,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
+                        <a href="product_single.php"><div class="product-name">Award 6</div></a>
 
                     </div>
                 </div>
@@ -492,7 +492,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
+                        <a href="product_single.php"><div class="product-name">Award 7</div></a>
                     </div>
                 </div>
                   <div class="swiper-slide">
@@ -500,7 +500,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
                         </div>
-                        <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
+                        <a href="product_single.php"><div class="product-name">Award 8</div></a>
                     </div>
                 </div>
 
@@ -513,7 +513,7 @@ include 'components/header.php';
     </div>
 </div>
 </div>
- 
+
 </main>
 <?php
 include 'components/footer.php';
