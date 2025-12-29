@@ -7,7 +7,7 @@ include 'components/header.php';
       <div class="hero-section">
             <div class="swiper hero-slider">
                 <div class="swiper-wrapper">
-                   
+
 
                     <div class="swiper-slide hero-slide" style="background-image:url('assets/images/slider-1.png')">
                         <div class="hero-content">
@@ -47,7 +47,7 @@ include 'components/header.php';
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/07/hindustanspices-8-298x298.jpg" class="img-fluid">
                         </div>
                          <a href="product_single.php"><div class="product-name">Cumin</div></a>
-                       
+
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@ include 'components/header.php';
                         <div class="category-image">
                             <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Spices-in-Kerala-4-298x298.jpeg" class="img-fluid">
                         </div>
-                       
+
                         <a href="product_single.php"><div class="product-name">Cinamon</div></a>
                     </div>
                 </div>
@@ -166,6 +166,9 @@ include 'components/header.php';
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Curry-Leaf-1-298x298.jpg" class="ingredient-image" alt="Aloe">
                     <div class="ingredient-title">Curry Leaf</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+<div class="product-price">
+                    <span class="price-current">₹12.99</span>
+                    </div>
                     <div class="ingredient-actions">
                     <a href="product_single.php" class="btn-select-options"> <i class="fas fa-shopping-cart mx-1"></i>Select options</a>
                     <button class="btn-wishlist"> <i class="fa-solid fa-heart mx-1"></i>Wishlist</button>
@@ -177,6 +180,9 @@ include 'components/header.php';
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/07/hindustanspices-1-298x298.jpg" class="ingredient-image" alt="Tea Tree">
                     <div class="ingredient-title">Sarvasugandhi</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+<div class="product-price">
+                    <span class="price-current">₹12.99</span>
+                    </div>
                     <div class="ingredient-actions">
                     <button class="btn-add-cart"> <i class="fas fa-shopping-cart mx-1"></i>Add to Cart</button>
                     <div class="qty-wrapper d-none">
@@ -194,6 +200,9 @@ include 'components/header.php';
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Pepper-Mint-298x298.jpg" class="ingredient-image" alt="Rosehip">
                     <div class="ingredient-title">Pepper Mint</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+<div class="product-price">
+                    <span class="price-current">₹12.99</span>
+                    </div>
                     <div class="ingredient-actions">
                     <button class="btn-add-cart"> <i class="fas fa-shopping-cart mx-1"></i>Add to Cart</button>
                     <div class="qty-wrapper d-none">
@@ -211,7 +220,10 @@ include 'components/header.php';
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Shatavari-298x298.jpg" class="ingredient-image" alt="Rosehip">
                     <div class="ingredient-title">Shatavari</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                   <div class="ingredient-actions">
+<div class="product-price">
+                    <span class="price-current">₹12.99</span>
+                    </div>
+                    <div class="ingredient-actions">
                     <button class="btn-add-cart"> <i class="fas fa-shopping-cart mx-1"></i>Add to Cart</button>
                     <div class="qty-wrapper d-none">
                         <button class="qty-btn minus">−</button>
@@ -228,7 +240,10 @@ include 'components/header.php';
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/07/hindustanspices-1-298x298.jpg" class="ingredient-image" alt="Rosehip">
                     <div class="ingredient-title">Shatavari</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                   <div class="ingredient-actions">
+<div class="product-price">
+                    <span class="price-current">₹12.99</span>
+                    </div>
+                    <div class="ingredient-actions">
                     <button class="btn-add-cart"> <i class="fas fa-shopping-cart mx-1"></i>Add to Cart</button>
                     <div class="qty-wrapper d-none">
                         <button class="qty-btn minus">−</button>
@@ -244,7 +259,10 @@ include 'components/header.php';
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/07/hindustanspices-1-298x298.jpg" class="ingredient-image" alt="Rosehip">
                     <div class="ingredient-title">Shatavari</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                   <div class="ingredient-actions">
+<div class="product-price">
+                    <span class="price-current">₹12.99</span>
+                    </div>
+                    <div class="ingredient-actions">
                     <button class="btn-add-cart"> <i class="fas fa-shopping-cart mx-1"></i>Add to Cart</button>
                     <div class="qty-wrapper d-none">
                         <button class="qty-btn minus">−</button>
@@ -261,7 +279,10 @@ include 'components/header.php';
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Pepper-Mint-298x298.jpg" class="ingredient-image" alt="Rosehip">
                     <div class="ingredient-title">Shatavari</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                   <div class="ingredient-actions">
+<div class="product-price">
+                    <span class="price-current">₹12.99</span>
+                    </div>
+                    <div class="ingredient-actions">
                     <button class="btn-add-cart"> <i class="fas fa-shopping-cart mx-1"></i>Add to Cart</button>
                     <div class="qty-wrapper d-none">
                         <button class="qty-btn minus">−</button>
@@ -277,7 +298,10 @@ include 'components/header.php';
                     <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Shatavari-298x298.jpg" class="ingredient-image" alt="Rosehip">
                     <div class="ingredient-title">Shatavari</div>
                     <div class="ingredient-desc">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
-                   <div class="ingredient-actions">
+<div class="product-price">
+                    <span class="price-current">₹12.99</span>
+                    </div>
+                    <div class="ingredient-actions">
                     <button class="btn-add-cart"> <i class="fas fa-shopping-cart mx-1"></i>Add to Cart</button>
                     <div class="qty-wrapper d-none">
                         <button class="qty-btn minus">−</button>

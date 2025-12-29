@@ -82,7 +82,7 @@
 
         .search-bar-desktop input {
             border: 1px solid #ddd;
-            border-radius: 25px;
+            border-radius: 15px;
             padding: 8px 40px 8px 20px;
             width: 250px;
             transition: all 0.3s ease;
@@ -266,7 +266,7 @@
             }
 
             .nav-icons {
-                gap: 10px;
+                gap: 25px;
             }
 
             .right-side-container {
