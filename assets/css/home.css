@@ -401,6 +401,8 @@
 
     .hero-content h1{
         font-size: 2rem;
+        color: #2d2d2d;
+
     }
     .hero-content p{
         font-size: 0.8rem;
@@ -520,6 +522,10 @@
 
 .category-card a{
     color: #333;
+}
+
+.client-title{
+    margin-top: 12px;
 }
 
 

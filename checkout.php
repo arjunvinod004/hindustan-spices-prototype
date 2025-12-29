@@ -110,7 +110,7 @@ include 'components/header.php';
                     </h2>
 
                     <div class="promo-code">
-                        <input type="text" class="form-control" placeholder="Enter promo code">
+                        <input type="text" class="form-control" placeholder="Enter Coupon Code">
                         <button class="btn-apply">Apply</button>
                     </div>
 

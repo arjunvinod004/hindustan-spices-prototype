@@ -4,7 +4,7 @@ include 'components/header.php';
 ?>
 
 <!-- section -->
-
+<main id="main-content">
 <section class="cart-section">
 <div class="container">
         <div class="row">
@@ -75,6 +75,7 @@ include 'components/header.php';
         </div>
     </div>
 </section>
+</main>
 
 <!-- Footer -->
 <?php

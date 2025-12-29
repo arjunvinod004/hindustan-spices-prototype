@@ -424,6 +424,96 @@ include 'components/header.php';
             </div>
         </div>
 </div>
+
+<!-- clients -->
+
+<div class="container">
+<div class="row hero-bg">
+<div class="col-12">
+<h2 class="section-title client-title">Winning Awards</h2>
+        <div class="swiper client-slider mb-5">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="https://hindustanspices.in/wp-content/uploads/2020/07/hindustanspices-8-298x298.jpg" class="img-fluid">
+                        </div>
+                         <a href="product_single.php"><div class="product-name">Cumin</div></a>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Spices-in-Kerala-4-298x298.jpeg" class="img-fluid">
+                        </div>
+
+                        <a href="product_single.php"><div class="product-name">Cinamon</div></a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
+                        </div>
+                         <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
+                        </div>
+                        <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
+                        </div>
+                        <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
+                        </div>
+                        <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
+
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
+                        </div>
+                        <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="https://hindustanspices.in/wp-content/uploads/2020/11/Turmeric-powder-1.jpg" class="img-fluid">
+                        </div>
+                        <a href="product_single.php"><div class="product-name">Turmeric Powder</div></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next client-next"></div>
+            <div class="swiper-button-prev client-prev"></div>
+        </div>
+
+    </div>
+</div>
+</div>
+ 
 </main>
 <?php
 include 'components/footer.php';

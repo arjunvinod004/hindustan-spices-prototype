@@ -73,6 +73,10 @@ $page_assets = [
         "css" => ["assets/css/shop.css"],
         "js"  => ["assets/js/shop.js"]
     ],
+    "about-us" => [
+        "css" => ["assets/css/about-us.css"],
+        "js"  => ["assets/js/about-us.js"]
+    ]
 ];
 ?>
 
@@ -99,13 +103,13 @@ if (!empty($page_assets[$current_page]["css"])) {
                 <ul class="navbar-nav ms-auto me-4">
                     <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="shop.php">Shop</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about-us.php">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="garden.php">Garden</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                 </ul>
 
                 <!-- Desktop Search Bar -->
-                <div class="search-bar-desktop d-none d-lg-flex">
+                <div class="search-bar-desktop d-none d-lg-flex ">
                     <input type="text" placeholder="Search products...">
                     <i class="fas fa-search"></i>
                 </div>
@@ -141,7 +145,7 @@ if (!empty($page_assets[$current_page]["css"])) {
                 </div>
 
                 <!-- Mobile Search Toggle -->
-                <div class="icon-wrapper mobile-search-toggle d-lg-none" id="mobileSearchToggle">
+                <div class="icon-wrapper mobile-search-toggle d-lg-none ms-2" id="mobileSearchToggle">
                     <i class="fas fa-search"></i>
                 </div>
 

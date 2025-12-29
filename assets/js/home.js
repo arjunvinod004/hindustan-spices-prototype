@@ -128,6 +128,39 @@ document.addEventListener("click", function (e) {
             }
         });
 
+
+// client slider
+
+ new Swiper('.client-slider', {
+            loop: true,
+            spaceBetween: 20,
+            grabCursor: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: '.client-next',
+                prevEl: '.client-prev',
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 2,
+                    spaceBetween: 10
+                },
+                576: {
+                    slidesPerView: 3,
+                    spaceBetween: 15
+                },
+                768: {
+                    slidesPerView: 4
+                },
+                992: {
+                    slidesPerView: 5
+                }
+            }
+        });
+
 //MARK: Hero Slider
 
 new Swiper('.hero-slider', {
