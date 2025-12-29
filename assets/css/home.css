@@ -394,6 +394,17 @@
         padding: 1rem;
         height: auto;
     } */
+
+    .hero-content h1{
+        font-size: 2rem;
+    }
+    .hero-content p{
+        font-size: 0.8rem;
+    }
+    .hero-content .btn-primary{
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+    }
     .hero-slide::before{
         content: '';
         position: absolute;
@@ -412,9 +423,7 @@
         transform: none;
         padding: 0;
     }
-    .hero-content{
-        display: none;
-    }
+ 
     .hero-slide{
         height: 50vh !important;
     }

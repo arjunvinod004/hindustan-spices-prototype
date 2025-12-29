@@ -13,14 +13,14 @@ include 'components/header.php';
                         <div class="hero-content">
                             <h1>Premium Organic Indian Spices</h1>
                             <p>Pure, aromatic & naturally sourced spices for healthy cooking.</p>
-                            <a href="product_single.php" class="btn-shop">Shop Now <i class="fas fa-arrow-right"></i></a>
+                            <a href="shop.php" class="btn-shop">Shop Now <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="swiper-slide hero-slide" style="background-image:url('assets/images/spices-slider-1.png')">
                         <div class="hero-content">
                             <h1>Hindustan Spices</h1>
                             <p>Pure, aromatic & naturally sourced spices for healthy cooking.</p>
-                            <a href="product_single.php" class="btn-shop">Shop Now <i class="fas fa-arrow-right"></i></a>
+                            <a href="shop.php" class="btn-shop">Shop Now <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -133,7 +133,7 @@ include 'components/header.php';
                         <div class="banner-content">
                             <!-- <span class="badge bg-danger mb-2">Sale 20% OFF</span> -->
                             <h4>Best deals in<br>fresh vegetables</h4>
-                            <a href="product_single.php" class="btn btn-sm btn-shop-now">Shop Now <i class="fas fa-arrow-right"></i></a>
+                            <a href="shop.php" class="btn btn-sm btn-shop-now">Shop Now <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@ include 'components/header.php';
                         <div class="banner-content">
                             <!-- <span class="badge bg-warning text-dark mb-2">Hot Deal</span> -->
                             <h4>100% Pure and<br>organic juice</h4>
-                            <a href="product_single.php" class="btn btn-sm btn-shop-now">Shop Now <i class="fas fa-arrow-right"></i></a>
+                            <a href="shop.php" class="btn btn-sm btn-shop-now">Shop Now <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
